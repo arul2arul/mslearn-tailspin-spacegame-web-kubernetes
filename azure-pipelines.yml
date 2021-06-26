@@ -47,8 +47,7 @@ stages:
   - job: 'Deploy'
     displayName: 'Deploy job'
     pool:
-      vmImage: 'ubuntu-20.04'
-    environment: 'spike'  
+      vmImage: 'ubuntu-20.04' 
     variables:
     - group: Release
     steps:
